@@ -1,0 +1,64 @@
+# -----------------------------
+# Java
+# -----------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.class
+*.log
+
+# -----------------------------
+# Maven
+# -----------------------------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# -----------------------------
+# Gradle
+# -----------------------------
+.gradle/
+build/
+
+# -----------------------------
+# Eclipse
+# -----------------------------
+.project
+.classpath
+.settings/
+bin/
+
+# -----------------------------
+# IntelliJ IDEA
+# -----------------------------
+.idea/
+*.iws
+*.ipr
+
+# -----------------------------
+# Spring Boot
+# -----------------------------
+/spring.log
+/logs/
+/tmp/
+/out/
+*.swp
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Git
+# -----------------------------
+*.orig
