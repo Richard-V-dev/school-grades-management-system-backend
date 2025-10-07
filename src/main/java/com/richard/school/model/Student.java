@@ -15,7 +15,7 @@ public class Student {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	@Column(unique=false, nullable=false)
+	@Column(unique=true, nullable=false)
 	@NotBlank(message="Email can't be empty")
 	private String name;
 	@Column(unique=true, nullable=false)
